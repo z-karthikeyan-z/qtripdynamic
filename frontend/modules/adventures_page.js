@@ -33,7 +33,7 @@ function addAdventureToDOM(adventures) {
     let rowDiv = document.getElementById("data");
     let colDiv = document.createElement("div");
 
-    colDiv.className = "col-6 col-md-4 col-lg-3 mb-5";
+    colDiv.className = "col-6 col-md-4 col-lg-3 mb-5 px-0";
     
     colDiv.innerHTML = `
     <a href = "./detail/?adventure=${key.id}" id = ${key.id}>
